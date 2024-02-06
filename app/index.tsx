@@ -1,6 +1,9 @@
+import { Redirect } from "expo-router";
 import React from "react";
 
 const MainScreen = () => {  
-    return <Rediret href ='/home' />
+    return <Redirect href ='/home' />
 
 }
+
+export default MainScreen;
